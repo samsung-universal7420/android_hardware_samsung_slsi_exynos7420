@@ -102,7 +102,7 @@ include $(BUILD_SHARED_LIBRARY)
 
 
 #################
-# camera.exynos7570.so
+# camera.exynos7420.so
 
 include $(CLEAR_VARS)
 

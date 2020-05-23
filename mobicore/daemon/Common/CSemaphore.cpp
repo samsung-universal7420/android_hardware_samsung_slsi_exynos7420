@@ -67,7 +67,7 @@ void CSemaphore::wait()
 }
 
 //------------------------------------------------------------------------------
-bool CSemaphore::wait(int sec)
+bool CSemaphore::wait(long int sec)
 {
     int rc = 0;
     struct timespec tm;
